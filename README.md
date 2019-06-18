@@ -21,6 +21,7 @@ quests[x]["reward"] = ItemIDs for rewards (includes both choices and guaranteed 
 quests[x]["repgain"] = {factionID: reputation gained}
 
 Example:
+
     "893": # Quest ID 893
         {"name": "Weapons of Choice", # Name of quest
 
