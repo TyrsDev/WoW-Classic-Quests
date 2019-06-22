@@ -8,6 +8,8 @@ quests[x]["name"] = Quest Title
 
 quests[x]["req"] = Minimum level required to pick up the quest
 
+quests[x]["level"] = Quest level
+
 quests[x]["objective"] = Text field with short objective explanation to finish quest
 
 quests[x]["prev"] = Previous quest in Quest Chain
@@ -26,6 +28,8 @@ Example:
         {"name": "Weapons of Choice", # Name of quest
 
         "req": "17", # Minimum level: 17
+        
+        "level": "24", # Quest level: 24
 
         "objective": "Bring a Razormane Backstabber, a Charred Razormane Wand and a Razormane War Shield to Tatternack Steelforge at Camp Taurajo in the Barrens.", # Ingame objective explanation
 
