@@ -12,6 +12,14 @@ quests[x]["level"] = Quest level
 
 quests[x]["objective"] = Text field with short objective explanation to finish quest
 
+quests[x]["type"] = One of these quest types: "Solo", "Group", "Raid", "Dungeon", "Escort, "World Event"
+
+quests[x]["classes"] = Array with all eligible classes (for functions like "if myclass in quests[x]["classes"]:")
+
+quests[x]["races"] = Array with all eligible races (for functions like "if myrace in quests[x]["races"]:") (Use this to control Faction as well)
+
+quests[x]["sort"] = Name of the Quest Tab the quest will appear under in the Quest Log. Most often Zone, but also Event, Class or Profession
+
 quests[x]["prev"] = Previous quest in Quest Chain
 
 quests[x]["next"] = Next quest in Quest Chain
@@ -26,6 +34,14 @@ Example:
 
     "893": # Quest ID 893
         {"name": "Weapons of Choice", # Name of quest
+   
+        "type": "Solo", # This is the default type, and can be ignored.
+        
+        "classes": ["druid", "shaman", "warrior", "rogue", "mage", "hunter", "priest", "warlock", "paladin"], # This is also default. Paladins can not finish this quest, since they're excluded by the line following below this.
+        
+        "races": ["orc", "tauren", "troll", "undead"], # Available for all Horde races!
+        
+        "sort": "The Barrens" # Zone tab in Quest Log
 
         "req": "17", # Minimum level: 17
         
@@ -35,10 +51,10 @@ Example:
 
         "reward": ["5322", "5323"], # Rewards: Demolition Hammer (5322) / Everglow Lantern (5323)
 
-                                    # (Does not specify whether this is a choice or if both are gained.
+                                    # (Does not specify whether this is a choice or if both are gained.)
 
                                     # Used for "which quest can I get this item from" inquiries.
 
-        "repgain": {"76": "250"}} # 250 Orgrimmar rep gained
+        "repgain": {"76": "250"}} # 250 Orgrimmar (76) rep gained
 
 For reference, use "hettps://classic.wowhead.com/" followed by "item=123" for items, "quest=123" for quests, "faction=123" for factions.
