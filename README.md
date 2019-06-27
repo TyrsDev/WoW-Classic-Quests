@@ -12,6 +12,14 @@ quests[x]["level"] = Quest level
 
 quests[x]["objective"] = Text field with short objective explanation to finish quest
 
+quests[x]["type"] = One of these quest types: "Solo", "Group", "Raid", "Dungeon", "Escort, "World Event"
+
+quests[x]["classes"] = Array with all eligible classes (for functions like "if myclass in quests[x]["classes"]:")
+
+quests[x]["races"] = Array with all eligible races (for functions like "if myrace in quests[x]["races"]:") (Use this to control Faction as well)
+
+quests[x]["sort"] = Name of the Quest Tab the quest will appear under in the Quest Log. Most often Zone, but also Event, Class or Profession
+
 quests[x]["prev"] = Previous quest in Quest Chain
 
 quests[x]["next"] = Next quest in Quest Chain
