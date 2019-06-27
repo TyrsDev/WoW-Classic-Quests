@@ -48,9 +48,7 @@ Example:
 
 For reference, use "hettps://classic.wowhead.com/" followed by "item=123" for items, "quest=123" for quests, "faction=123" for factions.
 
-
-
-
+_____________________________________________________________________
 
 Base structure of the "questlocales" JSON file is as follows:
 
