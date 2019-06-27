@@ -34,6 +34,14 @@ Example:
 
     "893": # Quest ID 893
         {"name": "Weapons of Choice", # Name of quest
+   
+        "type": "Solo", # This is the default type, and can be ignored.
+        
+        "classes": ["druid", "shaman", "warrior", "rogue", "mage", "hunter", "priest", "warlock", "paladin"], # This is also default. Paladins can not finish this quest, since they're excluded by the line following below this.
+        
+        "races": ["orc", "tauren", "troll", "undead"], # Available for all Horde races!
+        
+        "sort": "The Barrens" # Zone tab in Quest Log
 
         "req": "17", # Minimum level: 17
         
@@ -43,10 +51,10 @@ Example:
 
         "reward": ["5322", "5323"], # Rewards: Demolition Hammer (5322) / Everglow Lantern (5323)
 
-                                    # (Does not specify whether this is a choice or if both are gained.
+                                    # (Does not specify whether this is a choice or if both are gained.)
 
                                     # Used for "which quest can I get this item from" inquiries.
 
-        "repgain": {"76": "250"}} # 250 Orgrimmar rep gained
+        "repgain": {"76": "250"}} # 250 Orgrimmar (76) rep gained
 
 For reference, use "hettps://classic.wowhead.com/" followed by "item=123" for items, "quest=123" for quests, "faction=123" for factions.
