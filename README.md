@@ -58,19 +58,20 @@ quests[x]["title_" + lang] = Localized Quest Title, change lang to "fr", "de", "
 
 quests[x]["objective_" + lang] = Localized Quest Objective, change lang to "fr", "de", "cn", "es" or "ru".
 
-Languages: "fr" (French), "de" (German), "es" (Spanish), "cn" (Simplified Chinese) or "ru" (Russian).
-
-Some localizations (especially Chinese) may contain non-Chinese letters like "?".
+Languages: "koKR" (Korean), "frFR" (French), "deDE" (German), "zhCN" (Chinese), "esES" (Spanish, Spain), "esMX" (Spanish, Mexican) or "ruRU" (Russian).
 
 Example:
-
-    {'title_fr': 'Des armes de choix', # French title
-     'title_de': 'Ausgewahlte Waffen', # German title
-     'title_cn': '野猪人的武器', # Simplified Chinese title
-     'title_es': 'Una seleccion de armas', # Spanish title
-     'title_ru': 'Предпочитаемое оружие', # Russian title
-     'objective_fr': 'Apporter un Eustache tranchecrin, une Baguette tranchecrin carbonisee et un Bouclier tranchecrin a Tatternack Forgacier au camp Taurajo dans les Tarides.', # French objective
-     'objective_de': 'Bringt Tatternack Stahlformer im Camp Taurajo im Brachland einen Klingenmahnenruckenstecher, einen verkohlten Klingenmahnenzauberstab und einen Klingenmahnenkriegsschild.', # German objective
-     'objective_cn': '?陶拉祖?地的塔特?克・?炉?去一把??背刺匕首、一根?焦的??魔杖和一面??大盾。', # Chinese objective, obvious flaws.
-     'objective_es': 'Llevale 1 punal Crines de Acero, 1 varita Crines de Acero carbonizada y 1 escudo de guerra Crines de Acero a Jironack Forjacero en Campamento Taurajo en Los Baldios.', # Spanish objective
-     'objective_ru': 'Принесите стилет Иглогривых, обгоревший жезл Иглогривых и боевой щит Иглогривых Таттернаку Стальному Горну в Лагерь Таурахо в Степях.'} # Russian objective
+    {'title_koKR': '최고의 무기', # Korean title
+     'objective_koKR': None, # Korean objective
+     'title_frFR': 'Des armes de choix', # French title
+     'objective_frFR': 'Apporter un Eustache tranchecrin, une Baguette tranchecrin carbonisée et un Bouclier tranchecrin à Tatternack Forgacier au camp Taurajo dans les Tarides.', # French objective
+     'title_deDE': 'Ausgewählte Waffen', # German title
+     'objective_deDE': 'Bringt Tatternack Stahlformer im Camp Taurajo im Brachland einen Klingenmähnenrückenstecher, einen verkohlten Klingenmähnenzauberstab und einen Klingenmähnenkriegsschild.', # German objective
+     'title_zhCN': '野猪人的武器', # Chinese title
+     'objective_zhCN': '给陶拉祖营地的塔特纳克·钢炉带去一把钢鬃背刺匕首、一根烧焦的钢鬃魔杖和一面钢鬃大盾。', # Chinese objective
+     'title_esES': 'Una selección de armas', # Spanish (Spain) title
+     'objective_esES': 'Llévale 1 puñal Crines de Acero, 1 varita Crines de Acero carbonizada y 1 escudo de guerra Crines de Acero a Jironack Forjacero en Campamento Taurajo en Los Baldíos.', # Spanish (Spain) objective
+     'title_esMX': 'Una selección de armas', # Spanish (Mexico) title
+     'objective_esMX': 'Llévale 1 puñal Crines de Acero, 1 varita Crines de Acero carbonizada y 1 escudo de guerra Crines de Acero a Jironack Forjacero en Campamento Taurajo en Los Baldíos.', # Spanish (Mexico) objective
+     'title_ruRU': 'Предпочитаемое оружие', # Russian title
+     'objective_ruRU': 'Принесите стилет Иглогривых, обгоревший жезл Иглогривых и боевой щит Иглогривых Таттернаку Стальному Горну в Лагерь Таурахо в Степях.'} # Russian objective
