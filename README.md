@@ -54,9 +54,9 @@ Base structure of the "questlocales" JSON file is as follows:
 
 Key is QuestID
 
-quests[x]["title_" + lang] = Localized Quest Title, change lang to "fr", "de", "cn", "es" or "ru".
+quests[x]["title_" + lang] = Localized Quest Title, change lang to "koKR", "frFR", "deDE", "zhCN", "esES", "esMX" or "ruRU".
 
-quests[x]["objective_" + lang] = Localized Quest Objective, change lang to "fr", "de", "cn", "es" or "ru".
+quests[x]["objective_" + lang] = Localized Quest Objective, change lang to "koKR", "frFR", "deDE", "zhCN", "esES", "esMX" or "ruRU".
 
 Languages: "koKR" (Korean), "frFR" (French), "deDE" (German), "zhCN" (Chinese), "esES" (Spanish, Spain), "esMX" (Spanish, Mexican) or "ruRU" (Russian).
 
