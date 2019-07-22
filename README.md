@@ -61,6 +61,7 @@ quests[x]["objective_" + lang] = Localized Quest Objective, change lang to "fr",
 Languages: "koKR" (Korean), "frFR" (French), "deDE" (German), "zhCN" (Chinese), "esES" (Spanish, Spain), "esMX" (Spanish, Mexican) or "ruRU" (Russian).
 
 Example:
+
     {'title_koKR': '최고의 무기', # Korean title
      'objective_koKR': None, # Korean objective
      'title_frFR': 'Des armes de choix', # French title
