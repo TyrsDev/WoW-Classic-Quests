@@ -68,7 +68,8 @@ Example:
      'reward': ['5322', '5323'], # Rewards: Demolition Hammer (5322) / Everglow Lantern (5323)
                                  # (Does not specify whether this is a choice or if both are gained.)
                                  # Used for "which quest can I get this item from" inquiries.
-     'repgain': {'76': '250'}} # 250 Orgrimmar (76) rep gained
+     'repgain': {'76': '250'} # 250 Orgrimmar (76) rep gained,
+     'gather': ['5093', '5092', '5094']} # ItemID for a Razormane Backstabber, a Charred Razormane Wand and a Razormane War Shield
      
 For reference, use "https://classic.wowhead.com/" followed by "item=123" for items, "quest=123" for quests, "npc=123" for NPCs, "faction=123" for factions, "object=123" for game objects.
 
