@@ -34,6 +34,12 @@ quests[x]["reward"] = ItemIDs for rewards (includes both choices and guaranteed 
 
 quests[x]["repgain"] = {factionID: reputation gained}
 
+quests[x]["gather"] = ItemIDs needed to deliver the quest (objective)
+
+quests[x]["kill"] = CreatureIDs that need to be killed to complete the quest (objective)
+
+quests[x]["interact"] = GameObjectIDs that need to be interacted with to complete the quest (objective)
+
 Example:
     
     "893": # Quest ID 893
